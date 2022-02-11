@@ -54,7 +54,7 @@ function changeColor() {
     //let lightness = getComputedStyle(this).background;
     let color = this.style.background;
     //console.log(color);
-    this.style.background = darkenRGB(color,0.8);
+    this.style.background = darkenRGB(color,0.7);
        
 }
 
